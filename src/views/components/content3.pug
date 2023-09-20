@@ -1,38 +1,52 @@
 .content3-back
     .content3-value
-        .content3-text1
-            p. 
-                CONTACT US
-        .content3-text2
-            p. 
-                Have an prject in mind?
-        .content3-text3
-            p. 
-                The right move at the right time saves your investment.</br> 
-                live the dream of expanding your business.</br> 
-        .content3-text4
-            p. 
-                Corporation 
-        .content3-text5
-            p. 
-                4517 Washington Ave.</br> 
-                Manchester, Kentucky 39495</br> 
-        .content3-text6
-            p. 
-               
-                   <a style="text-decoration:underline; letter-spacing: 0.5px; " class="mobile-email"> (239)555-0108</a>
-                 
-                    <a style="text-decoration:underline;"class="mobile-email">contact@company.com</a> 
+        .content3-header 
+            .content3-parts
+                .content3-part1
+                    .content3-text1
+                        p. 
+                            CONTACT US
+                    .content3-text2
+                        p. 
+                            Have an prject in mind?
+                    .content3-text3
+                        p. 
+                            The right move at the right time saves your investment.</br> 
+                            live the dream of expanding your business.</br> 
+                .content3-part2
+                    .house
+                        .house-img
+                            img(src='/src/assets/imgs/template/house.svg')
+                        .content3-text4
+                            p. 
+                                Corporation 
+                    .content3-text5
+                        p. 
+                            4517 Washington Ave.</br> 
+                            Manchester, Kentucky 39495</br> 
+                    .content3-text6
+                        p. 
+                        
+                            <a style="text-decoration:underline; letter-spacing: 0.5px; " class="mobile-email"> (239)555-0108</a>
+                             
+                                <a style="text-decoration:underline;"class="mobile-email">contact@company.com</a> 
+            .wave
+                img(id="wave" src="/src/assets/imgs/template/icons/icon-wave.svg" )
+        
         .content3-form
-            input(type="text" value="Name" id="name")
-            </br>               
-            input(type="mail" value="Email" id="email")
-            </br>
-            <textarea name="message" cols="30" rows="10" placeholder="Message" class="massage" id="message"></textarea> 
-            </br>
-        .content3-button 
-               <a href="#" class="send" id="button">Send Message</a> 
-        .content3-text7
-            p. 
-                By clicking contact us button, you agree our terms and policy.
-script(src="/Users/kyryc/Desktop/fullstack_dev_test_task-main/src/views/components/index.js")
+            .content3-form-value
+                input(type="text" value="Name" id="name")
+                               
+                input(type="mail" value="Email" id="email")
+                
+                <textarea name="message" cols="30" rows="10" placeholder="Message" class="massage" id="message"></textarea> 
+            .content3-form-send   
+                .content3-button
+                    .content3-button-value
+                        <a href="#" class="send" id="button">Send Message</a>
+                        img(src='/src/assets/imgs/template/icons/arrow-small-right-w.svg' )
+                .content3-text7
+                    p. 
+                        By clicking contact us button, you agree our terms and policy.
+        
+script(src="/src/views/components/index.js")
