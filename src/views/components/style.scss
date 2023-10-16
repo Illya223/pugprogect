@@ -1,118 +1,161 @@
-.content1-back{
-   width:100%;
-   height:74.54%; 
-   background-color: #FAEDE3;
-   top: 11.57%;
-   position: absolute;
-   left:0;
+html{
+   box-sizing: border-box;
 }
-.he{
-   width:77.81%;
-   height:10.93%;
-   left: 11.09%;
-   top:0;
+
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+}
+
+body{
+   margin: 0;
+   font-family: 'Chivo', sans-serif;
+}
+
+
+
+.header{
    
-   position: absolute;
+   
+   
+   top: 0;
 }
 .header-value{
-   width:  95.98%;
-   height: 55.93%;
-   padding: 1.81% 2.09% 1.81% 2.09%;
+   max-width:  1494px;
+   height: 66px;
+   margin:26px auto ;
+   padding: 0 30px;
    justify-content:space-between;
    display: flex;
    align-items: center;
 }
-
-.content3-back{
-   width:100%;
-   height:74.54%; 
-   top: 148.8%;
-   background-color: #F2F4F7;
-   position: absolute;
-left:0;
-   
-}
 .v{
-  width:11.3%;
-  height: 63.64%;
-
+   width:11.3%;
+   height: 63.64%;
+ 
+ }
+ .menu{
+    width: 41.56%;
+    height: 33.33%;
+    gap: 48px;
+ }
+ nav{
+    display: block;
+    
+    
+ }
+ ul {
+    list-style: none;
+    justify-content:space-between;
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ li{
+    display: inline;
+    gap:7px;
+    size: 18px;
+    font-family: "Chivo";
+    font-weight: 400;
+    line-height: 22px;
+    
+ }
+ .button-getstarted{
+    width: 188px;
+    height: 66px;
+    background-color:#F2F4F7;
+    border-radius: 50px;
+    padding:22px 28px 22px 32px;
+    
+    
+ }
+ .button-value{
+    width: 128px;
+    height: 22px;
+    
+    
+    justify-content:space-between;
+    display: flex;
+ }
+ 
+ .button-text{
+    width: 78.13%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    
+    text-align: center;
+ }
+ .button-arrow{
+    width: 9.38%;
+    height:45.45%;
+    vertical-align: middle;
+    line-height: 22px;
+ }
+ 
+.content1-back{
+   width:100%;
+   height:805px; 
+   background-color: #FAEDE3;
+   top: 125px;
+   left:0;
+   position: absolute;
 }
-.menu{
-   width: 41.56%;
-   height: 33.33%;
-   gap: 48px;
-}
-nav{
-   display: block;
+.conteiner{
+   max-width:  1597px;
+   height: 805px;
+   margin: 0 auto;
    
+   padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
    
 }
-ul {
-   list-style: none;
-   justify-content:space-between;
+.section-hero{
+   width: 100%;
+   height: 805px;
    display: flex;
-   padding-left: 0;
-   margin-top: 0;
+  justify-content: space-between;
+  position: absolute;
+  align-items: stretch;
+  
 }
-a{
-   text-decoration: none;
-   
+.pattern1{
+   margin-top: -100px;
+   height: 300px;
 }
-
-li{
-   display: inline;
-   gap:7px;
-   size: 18px;
-   font-family: "Chivo";
-   font-weight: 400;
-   line-height: 22px;
+.pattern2{
+   margin-top: 657px;
    
-}
-.button-getstarted{
-   width: 13.11%;
-   height: 100%;
-   background-color:#F2F4F7;
-   border-radius: 50px;
-   
-   
-}
-.button-value{
-   width: 68.09%;
-   height: 33.33%;
-   padding:11.7% 14.89% 11.7% 17.02%;
-   
-   justify-content:space-between;
-   display: flex;
-}
-
-.button-text{
-   width: 78.13%;
-   height: 100%;
-   font-size: 18px;
-   font-family: "Chivo";
-   font-weight: 400;
-   
-   text-align: center;
-}
-.button-arrow{
-   width: 9.38%;
-   height:45.45%;
-   vertical-align: middle;
-   line-height: 22px;
 }
 .content1-value{
-   width:36.56%;
-   height:61.24%; 
-   top: 19.38%;
-   left:12.66%;
-   border-radius: 50px;
-   position: absolute;
+   width:702px;
+   height:493px; 
+   margin-top: 156px;
+   
+   
+   
+}
+.photo{
+   width:726px ;
+   height: 760px;
+   margin-top:45px;
+   
+  
+   
+   
 }
 .content1-text1{
    width:100%;
    height:60.85%;
    font-size: 80px;
-   font-weight: 400;
+   font-weight: 900;
    font-family:"Chivo", sans-serif;
    line-height: 88px;
    
@@ -136,15 +179,16 @@ p{
    display: flex;
 }
 .button-getstarted2{
-   width:  26.78%;
-   height: 89.19%;
+   width:  188px;
+   height: 66px;
    background-color:#101828;
    border-radius: 50px;
+   padding:22px 28px 22px 32px;
+   
 }
 .button2-value{
-   width: 68.09%;
-   height: 33.33%;
-   padding:11.7% 14.89% 11.7% 17.02%;
+   width: 128px;
+   height: 22px;
    
    justify-content:space-between;
    display: flex;
@@ -165,14 +209,14 @@ p{
    text-align: center;
 }
 .learn-more{
-   width:  26.78%;
-   height: 89.19%;
-  
+   width:  188px;
+   height: 66px;
+  padding:22px 28px 22px 32px;
 } 
 .learn-more-value{
-   width: 68.09%;
-   height: 33.33%;
-   padding:11.7% 14.89% 11.7% 17.02%;
+   width: 130px;
+   height: 22px;
+   
    
    justify-content:space-between;
    display: flex;
@@ -192,39 +236,26 @@ p{
    vertical-align: middle;
    line-height: 22px;
 } 
-.pattern1{
-   width: 15.63%;
-   height: 37.27%;
-   left:92.19%;
-   top: -13%;
-  position: absolute;
-}
-.pattern2{
-   width: 11.88%;
-   height: 28.32%;
-   top:81.61%;
-   position: absolute;
-}
-.photo{
-   width:37.81% ;
-   height: 94.41%;
-   top:5.59%;
-   left:54.9%;
-   position: absolute;
-}
+
+
+
 
 .content2-value{
-   width:74.69%;
-   height:40.56%; 
-   top: 98.7%;
-   left:12.66%;
-   position: absolute;
+   max-width:1494px;
+   height:438px; 
+   margin-top: 974px;
+   
+   margin-left: auto;
+   margin-right: auto;
+   padding:0 30px;
+   
    align-items: center;
   justify-content: space-between;
    display: flex; 
     flex-direction: column;
    
 }
+
 .content2-part{
    width: 81.52%;
    height: 47.26%;
@@ -238,14 +269,14 @@ p{
    width: 100%;
    height:32.85%;
    font-size: 56px;
-   font-weight: 400;
+   font-weight: 900;
    font-family:"Chivo"; 
    line-height: 64px;
    text-align: center;
 
 }
 .content2-text2{
-   width:63.56%;
+   width:100%;
    height:53.14%;
    font-size: 24px;
    font-family:"Noto Sans";
@@ -261,7 +292,7 @@ p{
    justify-content: space-between;
    
 }
-.content2-card1{ 
+.content2-card{ 
    width:31.94%;
    height:100%;
    color: #686868;
@@ -274,32 +305,6 @@ p{
    border: 2px;
    border-bottom: solid #E4E7EC;
    
-}
-.content2-card2{ 
-   width:31.94%;
-   height:100%;
-   color: #686868;
-   line-height: 32px;
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column;
-   flex-wrap: wrap;
-   align-content: space-between;
-   border: 2px;
-   border-bottom: solid #E4E7EC;
-}
-.content2-card3{ 
-   width:31.94%;
-   height:100%;
-   color: #686868;
-   line-height: 32px;
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column;
-   flex-wrap: wrap;
-   align-content: space-between;
-   border: 2px;
-   border-bottom: solid #E4E7EC;
 }
 
 .card-part{
@@ -311,35 +316,30 @@ p{
     flex-wrap: wrap;
    
 }
-.card-icon1{
+.card-icon{
    
    width: 80px;
    height: 80px;
    border-radius: 40px;
    background-color: #f2f3f4;
+   display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .icon{
-   padding-top: 24px;
-   padding-left: 21px;
-}
-.card-icon2{
+   height: 37px;
+   width: 37px;
+  
    
-   width: 80px;
-   height: 80px;
-   border-radius: 40px;
-   background-color: #f2f3f4;
 }
-.card-icon3{
-   
-   width: 80px;
-   height: 80px;
-   border-radius: 40px;
-   background-color: #f2f3f4;
-}
+
 .card-header{
    width: 54.34%;
    height: 20.38%;
+   font-size: 28px;
+   font-weight: 800;
+   color:black;
 }
 .card-text{
    width: 100%;
@@ -347,27 +347,47 @@ p{
    font-size: 16px;
    line-height: 28px;
    font-weight: 400;
-   font-style: "Noto Sans";
+   font-family: "Noto Sans";
    color:#475467;
 }
 
+.content3-back{
+   width:100%;
+   height:805px; 
+   top: 1607px;
+   background-color: #F2F4F7;
+   position: absolute;
+left:0;
+   
+}
 
 .content3-value{
-   width:65.21%;
-   height:78.01%; 
-   top: 11.3%;
-   left: 17.34%;
-   position: absolute;
+   max-width:1282px;
+   height:628px; 
+   margin-top: -400px;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 30px;
+   
 }
 .content3-header{
-   width: 101.2%;
-   height: 64.49%;
+   max-width: 1327px;
+   height: 405px;
    display: flex;
    justify-content: space-between;
+   
+   margin-top: 85px;
+    
+   margin-left: auto;
+  margin-right: auto;
+  padding:0 30px;
 }
 .content3-parts{
-   height: 100%;
-   width:34.57% ;
+   height: 405px;
+   width:438px ;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -387,6 +407,8 @@ p{
    height: 43.46%;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
    
 }
 .content3-text1{
@@ -405,7 +427,7 @@ p{
    font-size: 35px;
    font-family:"Chivo";
    color: black;
-   font-weight: 400;
+   font-weight: 800;
    
 
 }
@@ -444,7 +466,7 @@ p{
    font-family:"Noto Sans";
    color: #475467;
    line-height: 28px;
-   padding-top: 25px;
+   
 }
 .content3-text6{
    width:94.59%;
@@ -463,11 +485,10 @@ p{
    font-weight:500;
 }
 .content3-form{
-   width:71.65%;
-   height:66.56%; 
-   left:28.19%;
-   top: 33.44%;
-   position: absolute;
+   width:897px;
+   height:418px; 
+   flex-shrink: 0;
+  
    display: flex;
    justify-content: space-between;
    flex-direction: column;
@@ -482,9 +503,9 @@ p{
    flex-wrap: wrap;
 }
 .content3-button{
-   width:31.39%;
-   height: 100%;
-
+   width:215;
+   height: 66px;
+   padding: 22px 28px 22px 32px;
    background-color:black;
    border-radius: 50px;
    
@@ -492,7 +513,8 @@ p{
 
 }
 .content3-button-value{
-   padding: 10.23% 13.02% 10.23% 14.88%;
+   width: 155px;
+   height: 22px;
    display: flex;
    justify-content: space-between;
    
@@ -525,16 +547,16 @@ p{
   
 }
 input{
-   width: 99.55%;
-   height: 20%;
+   width: 893px;
+   height: 60px;
    border: none;
    color: gray;
    
    
 }
 .massage{
-   width: 99.55%;
-   height: 50%;
+   width: 890px;
+   height: 150px;
    font-size: 14px;
 
    
@@ -542,7 +564,64 @@ input{
 }
 
 .wave{
-   width: 10.18%;
-   height: 31.85%;
+   width: 129px;
+   height: 129px;
 }
 
+@media (max-width: 1500px) {
+   .content1-text1{
+      font-size: 65px;
+   }
+   .content1-text2{
+      font-size:18px;
+   }
+   .photo{
+      width: 660px;
+      height: 690px;
+      margin-top: 115px;
+   }
+   .pattern1{
+      margin-top: -80px;
+   }
+   .pattern2{
+      margin-top: 690px;
+   }
+   #girl{
+      width: 660px;
+      height: 690px;
+   }
+   #pattern1{
+      width: 120px;
+   }
+   #pattern2{
+   width: 120px;
+   
+   }
+   .card-header{
+      font-size: 22px;
+   }
+   .card-text{
+      font-size: 14px;
+   }
+   .card-icon{
+      width: 70px;
+      height: 70px;
+      border-radius: 35px;
+   }
+}
+
+@media (max-width: 1300px) {
+   .photo{
+      width: 605px;
+      height: 633px;
+      margin-top: 170px;
+   }
+   #girl{
+      width: 605px;
+      height: 633px;
+   }
+   .content1-value{
+      margin-top: 171px;
+   }
+
+}
