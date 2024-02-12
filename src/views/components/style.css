@@ -28,7 +28,7 @@ body {
 }
 
 .v {
-  width: 11.3%;
+  width: 162px;
   height: 63.64%;
 }
 
@@ -54,6 +54,9 @@ a {
   text-decoration: none;
   color: black;
 }
+.menu-a{
+  font-size: 18px;
+}
 
 li {
   display: inline;
@@ -62,6 +65,7 @@ li {
   font-family: "Chivo";
   font-weight: 400;
   line-height: 22px;
+  
 }
 
 .button-getstarted {
@@ -248,7 +252,7 @@ p {
 }
 
 .content2-part {
-  width: 81.52%;
+  max-width: 1169px;
   height: 47.26%;
   align-items: center;
   display: flex;
@@ -323,7 +327,7 @@ p {
 }
 
 .card-header {
-  width: 54.34%;
+  width: 214px;
   height: 20.38%;
   font-size: 28px;
   font-weight: 800;
@@ -331,7 +335,7 @@ p {
 }
 
 .card-text {
-  width: 100%;
+  max-width: 100%;
   height: 66.88%;
   font-size: 16px;
   line-height: 28px;
@@ -495,7 +499,7 @@ p {
 }
 
 .content3-button {
-  width: 215;
+  width: 215px;
   height: 66px;
   padding: 22px 28px 22px 32px;
   background-color: black;
@@ -553,6 +557,9 @@ input {
   width: 129px;
   height: 129px;
 }
+.head-burger{
+  display: none;
+}
 
 @media (max-width: 1500px) {
   .content1-text1 {
@@ -604,7 +611,459 @@ input {
     width: 605px;
     height: 633px;
   }
-  .content1-value {
-    margin-top: 171px;
+  
+}
+@media (max-width: 1200px) {
+
+  .content1-text1{
+     font-size: 45px;
   }
-}/*# sourceMappingURL=style.css.map */
+  .content1-text2{
+     font-size: 14px;
+  }
+  .photo {
+    width: 580px;
+    height: 650px;
+    margin-top: 175px;
+  }
+  #girl {
+    width: 580px;
+    height: 650px;
+  }
+  .card-header {
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .content3-form{
+    width: 697px;
+  }
+  input{
+    width: 697px;
+  }
+  .massage{
+     width: 697px;
+  }
+  .content3-form-send{
+    width: 100%;
+  }
+}
+@media (max-width: 1000px){
+  .content1-back{
+    height: 605px;
+  }
+  .content1-value{
+    margin-top: 80px;
+  }
+.pattern2{
+  margin-top: 485px;
+}
+.content1-value{
+  height: 390px;
+}
+  .content1-text1{
+    font-size: 30px;
+    line-height: 78px;
+  }
+  .content1-text2{
+    line-height: 25px;
+  }
+  .photo {
+    width: 350px;
+    height: 650px;
+    margin-top: 95px;
+  }
+  #girl {
+    width: 350px;
+    height: 650px;
+  }
+  .content2-value{
+    margin-top: 774px;
+  }
+  .content3-back{
+    top: 1407px;
+  }
+  .menu-a{
+    font-size: 14px;
+  }
+  .card-header {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .card-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  .content3-form{
+    width: 497px;
+  }
+  input{
+    width: 497px;
+  }
+  .massage{
+     width: 497px;
+  }
+  .content3-text7{
+    width: 50%;
+  }
+}
+@media (max-width: 786px){
+  .v{
+    width: 120px;
+  }
+  #Logo{
+    width: 120px;
+  }
+  .button-getstarted{
+    width: 150px;
+    padding: 22px 20px 22px 20px;
+  }
+  .button-value{
+    width: 110px;
+  }
+  .button-text{
+    width: 85%;
+    font-size: 16px;
+    
+  }
+  .menu{
+    width: 50%
+  }
+  .menu-a{
+    font-size: 12px;
+  }
+  .content1-value{
+    width: 350px;
+  }
+  .content2-text1{
+    font-size: 46px;
+  }
+  .content2-text2{
+    font-size: 18px;
+  }
+  .content3-form{
+    width: 397px;
+  }
+  input{
+    width: 397px;
+  }
+  .massage{
+     width: 397px;
+  }
+  .content3-text7{
+    width: 50%;
+  }
+  .content3-parts{
+    height: 550px;
+  }
+  .content3-part2{
+    width: 40%;
+    height: 60%;
+  }
+  .content3-text5{
+    width: 90%;
+  }
+  .content3-button{
+    width: 160px;
+    padding: 22px 20px 22px 20px;
+  }
+  .content3-button-value{
+    width: 130px;
+  }
+  .content3-text7{
+   font-size: 12px;
+  }
+  .send{
+    font-size: 14px;
+  }
+  .photo {
+    
+   display: none;
+  }
+  #girl {
+    display: none;
+  }
+  .card-header{
+    width: 140px;
+  }
+}
+@media (max-width: 630px){
+
+  
+  
+  .button-getstarted{
+    display:none;
+  }
+  
+  .head-burger{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .head-burger span{
+    position: absolute;
+    background-color: black;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  .head-burger::before,
+  .head-burger::after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    z-index: 5;
+  }
+  .head-burger::before{
+    top: 0;
+  }
+  .head-burger::after{
+    bottom: 0;
+  }
+  .head-burger.active::before{
+    transform: rotate(45deg);
+    top:9px;
+  }
+  .head-burger.active::after{
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .head-burger.active span{
+    transform: scale(0);
+  }
+  .menu{
+    position: absolute;
+    top: -150%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: gray;
+    padding: 20px 10px 20px 10px;
+    z-index: 2;
+    transition: all 0.3s ease 0s;
+    align-self: center;
+  }
+  .menu.active{
+    top:0;
+  }
+  .header-value{
+   
+    margin:0;
+    
+    z-index: 50;
+  }
+  ul{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  ul li{
+    margin: 0px 0px 10px 10px;
+  }
+  
+  .pattern1{
+    display: none;
+  }
+  .pattern2{
+display: none;
+  }
+  
+  .content1-back{
+    height: 475px;
+    top: 66px;
+  }
+  .conteiner{
+    height: 475px;
+    padding: 0 15px;
+  }
+  .content1-value{
+    max-width: 350px;
+    margin-top: 40px;
+  }
+  .button-getstarted2{
+    width: 130px;
+    height: 44px;
+    padding: 12px 14px 12px 14px;
+  }
+  .button2-value{
+    width: 100px;
+    height: 16px;
+  }
+  .button2-text{
+    width: 85%;
+    font-size: 15px;
+    
+  }
+  
+  .learn-more{
+    width: 130px;
+    height: 44px;
+    padding: 12px 14px 12px 14px;
+  }
+  .learn-more-value{
+    width: 100px;
+    height: 16px;
+  }
+  .learn-more-text{
+    width: 85%;
+    font-size: 15px;
+    
+  }
+  .arrow{
+    width: 10px;
+    height: 12px;
+    
+  }
+  .content1-text1{
+    font-size: 25px;
+
+  }
+  .content1-text2{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .content2-value{
+    height: 1000px;
+    margin-top: 530px;
+    padding: 0 15px;
+  }
+  .content2-part{
+    height: 400px;
+  }
+.content2-text1{
+  height: 200px;
+  font-size: 34px;
+}
+.content2-text2{
+  height: 200px;
+  font-size: 18px;
+}
+.content2-text3{
+  width: 230px;
+  height: 600px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content2-card{
+    width: 230px;
+    height: 178px;
+    border:0;
+  }
+  .content3-back{
+    top:1600px
+  }
+  .content3-header{
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+  .content3-parts{
+    width: 100%;
+    height: 750px;
+  }
+  .content3-part1{
+    height: 200px;
+  }
+  .content3-text1{
+    width: 88px;
+    height: 25px;
+    font-size: 12px;
+  }
+  .content3-text2{
+    font-size: 20px;
+  }
+  .content3-text3{
+    font-size: 12px;
+  }
+  .wave{
+    width: 100px;
+    display: none;
+  }
+  #wave{
+    width: 80px;
+    
+  }
+  .content3-part2{
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .house{
+    width: 30%;
+  }
+  .content3-text4{
+    font-size: 12px;
+  }
+
+  .house-img{
+    width: 10px;
+    height: 10px;
+    display: flex;
+  }
+  #house-img{
+    width: 10px;
+    height: 10px;
+     
+  }
+  .content3-text5{
+    width: 30%;
+    font-size: 8px;
+  }
+  .content3-text6{
+    width: 30%;
+  }
+  .mobile-email{
+    font-size:8px;
+  }
+  .content3-value{
+    width: 100%;
+   padding:0 15px;
+  }
+  .content3-form{
+    width: 100%;
+  }
+  input{
+    width: 100%;
+  }
+  .massage{
+    width: 95%;
+  }
+  .content3-form-send{
+    height: 90px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .content3-button{
+    width: 140px;
+    height: 46px;
+    padding: 14px 16px;
+    border-radius: 30px;
+  }
+  .content3-button-value{
+    width: 108px;
+  }
+  .send{
+    font-size: 12px;
+  }
+  .content3-text7{
+    width: 100%;
+    font-size: 10px;
+  }
+  
+}
+/*# sourceMappingURL=style.css.map */

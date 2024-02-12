@@ -51,7 +51,7 @@
     "defaults"
   ],
   "dependencies": {
-    "jquery": "^3.6.0",
+    "jquery": "^2.2.4",
     "pug": "^3.0.2"
   }
 }
